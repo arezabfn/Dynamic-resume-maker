@@ -25,6 +25,7 @@
                     <div class="card-header">جزئیات بخش خانه</div>
 
                     <div class="card-body">
+                            <span style="color: tomato">برای مشاهده وبسایت ابتدا باید مشخصات یا اطلاعاتی برای نمایش وارد کنید</span>
                         <form action="{{route('homePage.store')}}" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="form-group mt-2">

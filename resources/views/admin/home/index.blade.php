@@ -63,7 +63,7 @@
             </div>
         </div>
     </div>
-@endsectionnp
+@endsection
 
 @section('js')
     <script>

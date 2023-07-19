@@ -17,16 +17,23 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Route::get('/' , [App\Http\Controllers\front\frontController::class , 'index'])->name('front');
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::middleware('auth')->group(function (){
 
-Route::resource('/home/homePage',App\Http\Controllers\Administrator\HomeController::class)->parameters(['homePage'=>'id']);
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::resource('/home/about',App\Http\Controllers\Administrator\AboutController::class)->parameters(['about'=>'id']);
 
-Route::resource('home/skill',App\Http\Controllers\Administrator\SkillController::class)->parameters(['skill' => 'id']);
+    Route::resource('/home/homePage',App\Http\Controllers\Administrator\HomeController::class)->parameters(['homePage'=>'id']);
 
-Route::resource('/home/blog',App\Http\Controllers\Administrator\BlogController::class)->parameters(['blog'=>'id']);
+    Route::resource('/home/about',App\Http\Controllers\Administrator\AboutController::class)->parameters(['about'=>'id']);
+
+    Route::resource('home/skill',App\Http\Controllers\Administrator\SkillController::class)->parameters(['skill' => 'id']);
+
+    Route::resource('/home/blog',App\Http\Controllers\Administrator\BlogController::class)->parameters(['blog'=>'id']);
+
+});
+Route::middleware('view')->group(function (){
+    Route::get('/' , [App\Http\Controllers\front\frontController::class , 'index'])->name('front');
+});

@@ -23,6 +23,7 @@
                     <div class="card-header">فرم درباره من</div>
 
                     <div class="card-body">
+                        <span style="color: tomato">برای مشاهده وبسایت حداقل یک دیتا در این قسمت باید وارد کرد</span>
                         <form action="{{route('about.store')}}" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="form-group mt-2">
