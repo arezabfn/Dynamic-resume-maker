@@ -1,8 +1,10 @@
 نمایش بخشی از فرانت سایت
-https://user-images.githubusercontent.com/50272258/254500901-446062f0-32fc-402f-b8cf-6c17f145685c.png
-بخش ادمین 
-https://user-images.githubusercontent.com/50272258/254500954-0fb8eba0-ff89-4f6f-8143-d6bcede8fa4f.png
+![test](https://github.com/arezabfn/Dynamic-resume-maker/assets/50272258/70c6a7d7-2d68-4024-b967-543e043dbe2f)
 
-https://user-images.githubusercontent.com/50272258/254500991-fedaf9a0-426d-4f9c-a6df-e477fac28161.png
+بخش ادمین سایت
+![test2](https://github.com/arezabfn/Dynamic-resume-maker/assets/50272258/5f0ec038-5e61-4a9e-bb4d-91c727baedb0)
 
-https://user-images.githubusercontent.com/50272258/254501003-11daebf6-bfdf-4fcb-a495-5bef6f6866f2.png
+![test3](https://github.com/arezabfn/Dynamic-resume-maker/assets/50272258/5dbca085-65ce-425e-8afd-f3151289a1b4)
+
+![test4](https://github.com/arezabfn/Dynamic-resume-maker/assets/50272258/0e12e5af-d980-4d0e-ad34-2e3fa736e492)
+
