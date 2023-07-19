@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'vazir';
+    src: url("../font/Vazir.eot")  format('eot');
+    src: url("../font/Vazir.ttf")  format('truetype'),
+    url("../font/Vazir.woff") format('woff'),
+    url("../font/Vazir.woff") format('woff2');
+}
+
+body{
+    direction: rtl;
+    font-family: vazir !important;
+}
+
+
+.home-img{
+    display:block;
+}
+.home-img img{
+    width: 80%;
+    max-width: 400px ;
+    max-height: 550px;
+    display:block;
+    border-radius: 20px;
+    margin-top: 15%;
+    margin-right: 30%;
+    margin-left: 5px;
+    margin-bottom: 0;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.home-text{
+    padding-right: 150px;
+}
+.blog-item img{
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    /*object-fit: contain;*/
+}
+.blog-item-details img{
+    height: 400px;
+    object-fit: contain;
+}
